@@ -3,7 +3,9 @@ echo Starting Book Generation ...
 
 # Variables
 filename="barcamp-co"
-chapters="./src/index.md"
+#chapters="./src/index.md"
+chapters=$(find ./src -type f -name "[0-9]*.md" | sort | paste -sd ' ' -)
+chapters="./src/index.md $chapters"
 
 # Delete Old Versions
 echo Deleting old versions ...
