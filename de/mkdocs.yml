@@ -1,0 +1,64 @@
+site_name: Barcamps & Co.
+site_url: https://cogneon.github.io/barcamp-co
+docs_dir: src
+site_dir: ../docs/de
+edit_uri: ''
+
+nav:
+    - Einführung: index.md
+    - Teil I - Einstieg - Was sind Selbstfortbildungen?: 1-0-part-1.md
+    - Teil II - Barcamps und Unkonferenzen: 2-0-part-2a.md
+    - Teil II+ - Bonusmaterialien zum Barcamp: 3-0-part-2b.md
+    - Teil III -  10 weitere Formate für P2P-Fortbildungen:
+      - Vorbemerkungen: 4-0-part-3.md
+      - Karussell-Fortbildung: 4-1-carousel.md
+      - Hackathon & Booksprint: 4-2-hackathon-booksprint.md
+      - Newsletter & Wissensblog: 4-3-newsletter-blog.md
+      - Speed-Geeking & Date-an-Expert: 4-4-speed-geeking.md
+      - Lightning Talks & Pecha Kucha: 4-5-lightning-talk-pecha-kucha.md
+      - Stammtische & Meetups: 4-6-meetups.md
+      - Marktplatz & Ausstellung: 4-7-marketplace.md
+      - MOOCs & Learning Circles: 4-8-moocs-learning-circle.md
+      - Offene Küchen-Sprechstunde: 4-9-consultation-hour.md
+      - Twitter & Blogs: 4-10-twitter-blogs.md
+    - Teil IV - Ergänzende P2P-Methoden: 5-0-part-4.md
+    - Teil V - Zusatzmaterialien: 6-0-part-5.md
+    - Download:
+      - PDF-Version: https://github.com/cogneon/barcamp-co/blob/master/de/barcamp-co.pdf
+      - Word-Version: https://github.com/cogneon/barcamp-co/blob/master/de/barcamp-co.docx
+      - HTML-Version: https://github.com/cogneon/barcamp-co/blob/master/de/barcamp-co.html
+      - Markdown-Version: https://github.com/cogneon/barcamp-co/blob/master/de/barcamp-co.md
+      - E-Book (epub): https://github.com/cogneon/barcamp-co/blob/master/de/barcamp-co.epub
+
+theme:
+    name: 'material'
+#    custom_dir: src/overrides
+    palette: 
+        primary: yellow
+    language: de
+    icon:
+      logo: material/home
+      repo: fontawesome/brands/github
+    features:
+      - toc.integrate
+      - search.share
+
+extra_css:
+  - stylesheets/extra.css
+
+repo_name: 'cogneon/barcamp-co'
+repo_url: 'https://github.com/cogneon/barcamp-co'
+
+extra:
+    social:
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@cogneon'
+        - icon: fontawesome/brands/linkedin
+          link: 'https://www.linkedin.com/company/cogneon-gmbh'
+        - icon: fontawesome/brands/github
+          link: 'https://github.com/cogneon'
+    giscus: true
+    generator: false
+
+plugins:
+  - search
